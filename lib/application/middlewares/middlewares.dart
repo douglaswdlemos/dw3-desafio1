@@ -9,6 +9,7 @@ const _defaultCorsHeaders = {
       '${HttpHeaders.contentTypeHeader},${HttpHeaders.authorizationHeader}'
 };
 
+//Cors
 Middleware cors({Map<String, String> headers = _defaultCorsHeaders}) {
   return (Handler innerHandle) {
     return (Request request) async {

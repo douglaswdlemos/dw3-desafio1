@@ -4,6 +4,7 @@ part of 'menu_controller.dart';
 
 // **************************************************************************
 // ShelfRouterGenerator
+//
 // **************************************************************************
 
 Router _$MenuControllerRouter(MenuController service) {
